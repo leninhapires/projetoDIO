@@ -1,0 +1,57 @@
+body{
+    background:rgb(190, 163, 143) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+#title , .sub-title, .post-title{
+ color: rgb(42, 90, 66);
+ text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: yellowgreen;
+}
+.post-title{
+ font-size: 16px;
+ font-style: italic;
+ margin: 0;
+ margin-bottom:15px;
+}
+.foto{
+    border: 5px solid rgb(236, 151,151);
+    border-radius: 50px;
+    
+}
+.post{
+    background: rgb(236, 151, 151);
+    padding: 15px;
+    border: 3px solid bisque;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.post-content{
+    margin: 0;
+    margin-bottom:15px;
+    text-transform:capitalize ;
+    text-align: center;
+
+}
+.post-init{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.lista{
+    
+    list-style-image: url("img/florb.png");
+    padding-left:75px;
+
+}
+.lista ul li{
+    text-decoration: none;
+}
